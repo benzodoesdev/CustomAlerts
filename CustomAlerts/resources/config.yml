@@ -3,7 +3,7 @@ datetime-format: "H:i:s"
 Motd:
   update-timeout: 1
   custom: true
-  message: "&e[{TIME}] &aWelcome to your server! &n&b[{TOTALPLAYERS}/{MAXPLAYERS}]"
+  message: "&l&cCricix&bPE &1| &eFactions &6/ &ePrisons"
 OutdatedClient:
   custom: true
   message: "&cYour MCPE client is outdated!"
@@ -17,10 +17,10 @@ FullServer:
   custom: true
   message: "&e{PLAYER}&b, The Server is full &c[{TOTALPLAYERS}/{MAXPLAYERS}]&b!\n&l&dTry to join later :)"
 FirstJoin:
-  enable: true
+  enable: fasle
   message: "&2[{TIME}] &a{PLAYER}&d joined the game for the first time."
 Join:
-  hide: false
+  hide: true
   custom: true
   message: "&2[{TIME}] &a{PLAYER}&e joined the game."
 Quit:
@@ -28,7 +28,7 @@ Quit:
   custom: false
   message: "&4[{TIME}] &c{PLAYER}&e has left the game"
 WorldChange:
-  enable: true
+  enable: false
   message: "&2[{TIME}] &a{PLAYER}&e moved from &c{ORIGIN}&e to &a{TARGET}"
 Death:
   hide: false
@@ -41,37 +41,37 @@ Death:
   kill-message:
     hide: false
     custom: true
-    message: "&9{PLAYER} &ewas killed by &c{KILLER}"
+    message: "&c{PLAYER} &ewas merked by &c{KILLER}"
   death-projectile-message:
     hide: false
     custom: true
-    message: "&c{PLAYER} was killed by {KILLER} by arrow"
+    message: "&c{PLAYER} &ewas killed by &c{KILLER} &ewith an bow"
   death-suffocation-message:
     hide: false
     custom: true
     message: "&c{PLAYER} suffocated"
   death-fall-message:
-    hide: false
+    hide: true
     custom: true
     message: "&c{PLAYER} fell from a high place"
   death-fire-message:
-    hide: false
+    hide: true
     custom: true
-    message: "&c{PLAYER} went up in flames"
+    message: "&c{PLAYER} &ewent up in flames"
   death-on-fire-message:
-    hide: false
+    hide: true
     custom: true
     message: "&c{PLAYER} burned"
   death-lava-message:
-    hide: false
+    hide: true
     custom: true
     message: "&c{PLAYER} tried to swim in lava"
   death-drowning-message:
-    hide: false
+    hide: true
     custom: true
     message: "&c{PLAYER} drowned"
   death-explosion-message:
-    hide: false
+    hide: true
     custom: true
     message: "&c{PLAYER} exploded"
   death-void-message:
